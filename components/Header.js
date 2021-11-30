@@ -1,3 +1,5 @@
+import { FcHome } from "react-icons/fc";
+
 export default function Header() {
   return (
     <nav class="bg-white shadow-lg">
@@ -5,10 +7,10 @@ export default function Header() {
         <div class="flex justify-between">
           <div class="flex space-x-7">
             <div>
-              <a href="#" class="flex items-center py-4 px-2">
-                <img src="logo.png" alt="Logo" class="h-8 w-8 mr-2" />
+              <a href="#" class="flex items-center py-6 ">
+                <FcHome />
                 <span class="font-semibold text-gray-500 text-lg">
-                  Navigation
+                  Find Hotels
                 </span>
               </a>
             </div>
