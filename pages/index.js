@@ -5,6 +5,8 @@ import styles from "../styles/Home.module.css";
 import Script from "next/script";
 import Banner from "../components/Banner";
 import Features from "../components/Features";
+import Featured from "../components/Featured";
+import Experiences from "../components/Experiences";
 
 export default function Home() {
   return (
@@ -27,7 +29,9 @@ export default function Home() {
       />
       <Header />
       <Banner />
+      <Featured />
       <Features />
+      <Experiences />
       {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
