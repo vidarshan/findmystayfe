@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Banner() {
   return (
-    <div class="flex mt-8 items-center">
+    <div class="flex mx-8 my-8 items-center">
       <div class="flex-1">
         <span className="text-7xl py-4 items-stretch">
           {" "}
