@@ -22,7 +22,7 @@ export default function Banner() {
       <div className="flex-1 ...">
         {" "}
         <Image
-          fill
+          alt="cover"
           src="/images/cover.jpeg"
           height={600}
           width={1000}
