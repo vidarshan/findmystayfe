@@ -9,8 +9,8 @@ export default function Featured() {
       <span className="text-center text-2xl">
         This week's most visited hotels.
       </span>
-      <div class="flex flex-row">
-        <div class="flex-auto items-center flex-col w-full m-5 rounded-lg shadow-2xl cursor-pointer">
+      <div className="flex flex-row">
+        <div className="flex-auto items-center flex-col w-full m-5 rounded-lg shadow-2xl cursor-pointer">
           <div>
             <Image
               className="rounded-img"
@@ -30,7 +30,7 @@ export default function Featured() {
             <div className="mx-1 my-3 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -38,7 +38,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -46,7 +46,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -54,7 +54,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -62,7 +62,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -75,7 +75,7 @@ export default function Featured() {
               View More{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -90,7 +90,7 @@ export default function Featured() {
             </button>
           </div>
         </div>
-        <div class="flex-auto items-center flex-col w-full m-5 rounded-lg shadow-2xl">
+        <div className="flex-auto items-center flex-col w-full m-5 rounded-lg shadow-2xl">
           <div>
             <Image
               className="rounded-img"
@@ -110,7 +110,7 @@ export default function Featured() {
             <div className="mx-1 my-3 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -118,7 +118,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -126,7 +126,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -134,7 +134,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -142,7 +142,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -155,7 +155,7 @@ export default function Featured() {
               View More{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -170,7 +170,7 @@ export default function Featured() {
             </button>
           </div>
         </div>
-        <div class="flex-auto items-center flex-col w-full m-5  rounded-lg shadow-2xl">
+        <div className="flex-auto items-center flex-col w-full m-5  rounded-lg shadow-2xl">
           <div>
             <Image
               className="rounded-img"
@@ -190,7 +190,7 @@ export default function Featured() {
             <div className="mx-1 my-3 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -198,7 +198,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -206,7 +206,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -214,7 +214,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -222,7 +222,7 @@ export default function Featured() {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-yellow-600"
+                className="h-5 w-5 text-yellow-600"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -235,7 +235,7 @@ export default function Featured() {
               View More{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

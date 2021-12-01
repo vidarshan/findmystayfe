@@ -5,13 +5,13 @@ export default function Features() {
     <div className="flex flex-col my-20">
       <span className="text-center text-4xl font-semibold">Why us?</span>
       <span className="text-center text-2xl">Our amazing services</span>
-      <div class="flex flex-row">
-        <div class="flex-1 items-center flex-col w-full m-5 bg-red-100 p-10 text-center rounded-lg shadow-2xl">
+      <div className="flex flex-row">
+        <div className="flex-1 items-center flex-col w-full m-5 bg-red-100 p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-red-700 font-medium">Quick</span>
           <div className="py-5 flex items-center text-red-700 justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class=" h-20 w-30 text-red-700"
+              className=" h-20 w-30 text-red-700"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -31,12 +31,12 @@ export default function Features() {
             in the line.
           </div>
         </div>
-        <div class="flex-1 flex-col w-full m-5 bg-green-200 p-10 text-center rounded-lg shadow-2xl">
+        <div className="flex-1 flex-col w-full m-5 bg-green-200 p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-green-700">Easy</span>
           <div className="py-5 flex items-center justify-center text-green-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class=" h-20 w-30 text-green-700"
+              className=" h-20 w-30 text-green-700"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -54,12 +54,12 @@ export default function Features() {
             your end. Just check-in, enjoy and check-out.
           </span>
         </div>{" "}
-        <div class="flex-1 flex-col w-full m-5 bg-blue-200 p-10 text-center rounded-lg shadow-2xl">
+        <div className="flex-1 flex-col w-full m-5 bg-blue-200 p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-blue-700">Reviewed</span>
           <div className="py-5 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class=" h-20 w-30 text-blue-700"
+              className=" h-20 w-30 text-blue-700"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -77,12 +77,12 @@ export default function Features() {
             for you, based on the experiences and ratings of our past customers.
           </span>
         </div>{" "}
-        <div class="flex-1 flex-col w-full m-5 bg-yellow-200 p-10 text-center rounded-lg shadow-2xl">
+        <div className="flex-1 flex-col w-full m-5 bg-yellow-200 p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-yellow-700">Free</span>
           <div className="py-5 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class=" h-20 w-30 text-yellow-700"
+              className=" h-20 w-30 text-yellow-700"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
