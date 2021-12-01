@@ -15,7 +15,7 @@ export default function Experiences() {
             <Image
               alt="user1"
               className="rounded my-3"
-              src="/images/user2.jpeg"
+              src="/images/user1.jpeg"
               width={60}
               height={60}
               layout="fixed"
@@ -55,7 +55,7 @@ export default function Experiences() {
             <Image
               alt="user1"
               className="rounded my-3"
-              src="/images/user2.jpeg"
+              src="/images/user3.jpeg"
               width={60}
               height={60}
               layout="fixed"
@@ -75,7 +75,7 @@ export default function Experiences() {
             <Image
               alt="user1"
               className="rounded my-3"
-              src="/images/user2.jpeg"
+              src="/images/user4.jpeg"
               width={60}
               height={60}
               layout="fixed"

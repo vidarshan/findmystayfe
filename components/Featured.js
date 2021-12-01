@@ -6,10 +6,10 @@ export default function Featured() {
       <span className="text-center text-4xl font-semibold">
         Featured Hotels
       </span>
-      <span className="text-center text-2xl">
+      <span className="text-center text-2xl my-4">
         This week's most visited hotels.
       </span>
-      <div className="grid grid-cols-3 gap-9 items-stretch">
+      <div className="grid grid-cols-3 gap-9 items-stretch sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-initial flex-col rounded-lg shadow-2xl cursor-pointer truncate">
           <Image
             className="rounded-img"
@@ -97,7 +97,7 @@ export default function Featured() {
             className="rounded-img"
             width={300}
             height={300}
-            src="/images/hotel1.jpeg"
+            src="/images/hotel2.jpeg"
             alt="hotel image 1"
           />
 
@@ -179,7 +179,7 @@ export default function Featured() {
             className="rounded-img"
             width={300}
             height={300}
-            src="/images/hotel1.jpeg"
+            src="/images/hotel3.jpeg"
             alt="hotel image 1"
           />
 
