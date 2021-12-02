@@ -1,3 +1,7 @@
 export default function HotelPage() {
-  return <div>shfhsjfbhjb</div>;
+  return (
+    <div className="grid-cols-2">
+      <div>Images</div>
+    </div>
+  );
 }

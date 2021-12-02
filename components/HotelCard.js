@@ -30,7 +30,7 @@ export default function HotelCard() {
         <p>$13.00 / per night</p>
 
         <Link href={`/hotels/${slug}`}>
-          <button className="my-3 px-6 py-1 rounded-lg bg-yellow-400">
+          <button className="my-3 px-6 py-2 rounded-lg bg-yellow-400">
             View Hotel
           </button>
         </Link>
