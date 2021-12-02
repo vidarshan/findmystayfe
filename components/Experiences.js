@@ -9,7 +9,7 @@ export default function Experiences() {
       <span className="text-center text-lg my-4">
         Some of the many users who admired our service.
       </span>
-      <div className="grid grid-cols-2 gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+      <div className="grid grid-cols-2 gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 xs:grid-cols-1">
         <div className="flex flex-row shadow-2xl p-4 rounded-lg">
           <div className="flex flex-col justify-center">
             <Image

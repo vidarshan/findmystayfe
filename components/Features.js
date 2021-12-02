@@ -5,7 +5,7 @@ export default function Features() {
     <div className="flex flex-col m-10">
       <span className="text-center text-4xl font-semibold">Why us?</span>
       <span className="text-center text-2xl my-4">Our amazing services</span>
-      <div className="grid gap-8 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-8 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xs:grid-cols-1">
         <div className="flex flex-1 items-center bg-red-300 flex-col w-full p-10 text-center rounded-lg shadow-2xl ">
           <span className="text-3xl text-red-700 font-medium">Quick</span>
           <div className="py-5 flex items-center text-red-700 justify-center">

@@ -2,17 +2,17 @@ import Image from "next/image";
 
 export default function Banner() {
   return (
-    <div className="flex mx-8 my-8 items-center">
+    <div className="grid grid-cols-2 mx-8 my-8 items-center xs:grid-cols-1 xs:order-1">
       <div className="flex-1">
-        <span className="text-7xl py-4 items-stretch">
+        <p className="text-5xl py-4 items-stretch">
           {" "}
           Find your stay in California.
-        </span>
-        <br />
-        <span className="text-xl">
+        </p>
+
+        <p className="text-md my-2">
           Planning to spend your vacation in California? Find your hotels
           conviniently.
-        </span>
+        </p>
         <div className="flex-1">
           <button className="bg-yellow-400 my-6 py-2 px-5 rounded-lg">
             Explore hotels

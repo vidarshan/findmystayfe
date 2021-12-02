@@ -9,7 +9,7 @@ export default function Featured() {
       <span className="text-center text-2xl my-4">
         This week's most visited hotels.
       </span>
-      <div className="grid grid-cols-3 gap-9 items-stretch sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-3 gap-9 items-stretch sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xs:grid-cols-1">
         <div className="flex flex-initial flex-col rounded-lg shadow-2xl cursor-pointer truncate">
           <Image
             className="rounded-img"
