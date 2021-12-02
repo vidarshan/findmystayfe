@@ -1,7 +1,12 @@
+import Layout from "../../components/Layout";
+
 export default function HotelPage() {
   return (
-    <div className="grid-cols-2">
-      <div>Images</div>
-    </div>
+    <Layout>
+      <div className="grid grid-cols-2">
+        <div>Images</div>
+        <div>hfvbh</div>
+      </div>
+    </Layout>
   );
 }
