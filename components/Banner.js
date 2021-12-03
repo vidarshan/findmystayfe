@@ -14,12 +14,10 @@ export default function Banner() {
           Planning to spend your vacation in California? Find your hotels
           conviniently.
         </p>
-        <div className="flex-1">
+
+        <div className="my-7">
           <Link href="/hotels">
-            <a className="bg-yellow-400 my-6 py-2 px-5 rounded-lg" href="#">
-              {" "}
-              Explore hotels
-            </a>
+            <a className="bg-yellow-400 p-5 rounded-lg">Explore hotels</a>
           </Link>
         </div>
       </div>
