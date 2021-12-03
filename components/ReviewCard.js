@@ -4,7 +4,7 @@ import { BsStarFill } from "react-icons/bs";
 
 export default function ReviewCard() {
   return (
-    <div className="flex flex-col m-2 p-5 shadow-2xl rounded-lg">
+    <div className="flex flex-col my-2 p-5 shadow-2xl rounded-lg">
       <div className="flex flex-row items-center">
         <FaUserCircle className="mr-2" />
         <p className="text-gray-600 my-4">John Smith</p>
