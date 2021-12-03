@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BsStarFill } from "react-icons/bs";
 
@@ -6,7 +7,7 @@ export default function HotelCard() {
 
   return (
     <div className="flex flex-col rounded-lg shadow-2xl bg-red-100 ">
-      <img
+      <Image
         className="rounded-img"
         src="/images/hotel1.jpeg"
         alt="hotel_img"
@@ -30,9 +31,9 @@ export default function HotelCard() {
         <p>$13.00 / per night</p>
 
         <Link href={`/hotels/${slug}`}>
-          <button className="my-3 px-6 py-2 rounded-lg bg-yellow-400">
+          <a className="my-3 px-6 py-2 rounded-lg bg-yellow-400" href="#">
             View Hotel
-          </button>
+          </a>
         </Link>
       </div>
     </div>

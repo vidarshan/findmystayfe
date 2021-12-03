@@ -16,9 +16,10 @@ export default function Banner() {
         </p>
         <div className="flex-1">
           <Link href="/hotels">
-            <button className="bg-yellow-400 my-6 py-2 px-5 rounded-lg">
+            <a className="bg-yellow-400 my-6 py-2 px-5 rounded-lg" href="#">
+              {" "}
               Explore hotels
-            </button>
+            </a>
           </Link>
         </div>
       </div>

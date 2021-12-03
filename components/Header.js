@@ -8,12 +8,12 @@ export default function Header() {
         <div className="flex justify-between">
           <div className="flex space-x-7">
             <Link href="/">
-              <div className="flex items-center py-6 ">
+              <a href="#" className="flex items-center py-6 ">
                 <FcHome className="mr-2" />
                 <span className="font-semibold text-gray-500 text-lg">
                   Findmystay
                 </span>
-              </div>
+              </a>
             </Link>
           </div>
         </div>
