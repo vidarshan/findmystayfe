@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Image from "next/image";
 import { BsStarFill } from "react-icons/bs";
 
 export default function HotelCard() {
