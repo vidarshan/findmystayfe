@@ -10,6 +10,7 @@ export default function Footer() {
           <div className=" mx-2 text-lg font-semibold">Find My Stay</div>
         </div>
         <div className="py-2 text-xs font-semibold">2022 @ findmystay.com</div>
+        <div className="py-2 text-xs font-semibold">Phone and Email</div>
         <div className="py-2 text-xs font-semibold">Terms and Conditions</div>
         <div className="py-2 text-xs font-semibold">About</div>
       </div>

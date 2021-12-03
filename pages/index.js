@@ -1,11 +1,10 @@
 import Head from "next/head";
-import Header from "../components/Header";
 import Script from "next/script";
 import Banner from "../components/Banner";
 import Features from "../components/Features";
 import Featured from "../components/Featured";
 import Experiences from "../components/Experiences";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
@@ -26,12 +25,12 @@ export default function Home() {
         });`,
         }}
       />
-      <Header />
-      <Banner />
-      <Featured />
-      <Features />
-      <Experiences />
-      <Footer />
+      <Layout>
+        <Banner />
+        <Featured />
+        <Features />
+        <Experiences />
+      </Layout>
     </div>
   );
 }

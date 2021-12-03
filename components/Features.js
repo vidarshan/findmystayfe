@@ -6,7 +6,7 @@ export default function Features() {
       <span className="text-center text-4xl font-semibold">Why us?</span>
       <span className="text-center text-2xl my-4">Our amazing services</span>
       <div className="grid gap-8 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xs:grid-cols-1">
-        <div className="flex flex-1 items-center bg-red-300 flex-col w-full p-10 text-center rounded-lg shadow-2xl ">
+        <div className="flex flex-1 items-center flex-col w-full p-10 text-center rounded-lg shadow-2xl ">
           <span className="text-3xl text-red-700 font-medium">Quick</span>
           <div className="py-5 flex items-center text-red-700 justify-center">
             <svg
@@ -31,7 +31,7 @@ export default function Features() {
             in the line.
           </div>
         </div>
-        <div className="flex-1 flex-col w-full bg-green-200 p-10 text-center rounded-lg shadow-2xl">
+        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-green-700">Easy</span>
           <div className="py-5 flex items-center justify-center text-green-700">
             <svg
@@ -54,7 +54,7 @@ export default function Features() {
             your end. Just check-in, enjoy and check-out.
           </span>
         </div>{" "}
-        <div className="flex-1 flex-col w-full bg-blue-200 p-10 text-center rounded-lg shadow-2xl">
+        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-blue-700">Reviewed</span>
           <div className="py-5 flex items-center justify-center">
             <svg
@@ -77,7 +77,7 @@ export default function Features() {
             for you, based on the experiences and ratings of our past customers.
           </span>
         </div>{" "}
-        <div className="flex-1 flex-col w-full bg-yellow-200 p-10 text-center rounded-lg shadow-2xl">
+        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">
           <span className="text-3xl text-yellow-700">Free</span>
           <div className="py-5 flex items-center justify-center">
             <svg
