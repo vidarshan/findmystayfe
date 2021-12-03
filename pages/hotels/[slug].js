@@ -10,6 +10,8 @@ import {
 } from "react-icons/md";
 import { GiRotaryPhone } from "react-icons/gi";
 import { IoIosMail } from "react-icons/io";
+import { BsStarFill } from "react-icons/bs";
+import ReviewCard from "../../components/ReviewCard";
 
 export default function HotelPage() {
   const [image, setImage] = useState("/images/hotel1.jpeg");
@@ -105,6 +107,25 @@ export default function HotelPage() {
               <button className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-red-500 text-white">
                 <IoIosMail className="mr-2" /> Email reception
               </button>
+            </div>
+          </div>
+        </div>
+        <div className="border-t-4 p-1">
+          <p className="text-xl">Reviews</p>
+          <div className="grid">
+            <div className="flex flex-row items-center justify-center text-xl font-bold">
+              <BsStarFill className="text-yellow-400 mr-1" />
+              <p className="text-gray-600">4.7 [5 Reviews]</p>
+            </div>
+            <div>
+              <ReviewCard />
+
+              <ReviewCard />
+              <ReviewCard />
+              <ReviewCard />
+            </div>
+            <div>
+              <button className="bg-yellow-600">Add Review</button>
             </div>
           </div>
         </div>
