@@ -6,7 +6,7 @@ export default function HotelCard({ hotel }) {
   const slug = "the-paradise-inn";
 
   return (
-    <div className="flex flex-col rounded-lg shadow-2xl bg-red-100 ">
+    <div className="flex flex-col rounded-lg shadow-2xl">
       <Image
         className="rounded-img"
         src={hotel.images[0]}

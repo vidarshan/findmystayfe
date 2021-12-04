@@ -4,6 +4,7 @@ import Features from "../components/Features";
 import Featured from "../components/Featured";
 import Experiences from "../components/Experiences";
 import Layout from "../components/Layout";
+import { API_URL } from "@/config/index";
 
 export default function Home({ hotels }) {
   return (
