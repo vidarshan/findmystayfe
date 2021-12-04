@@ -2,20 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsStarFill } from "react-icons/bs";
 
-export default function HotelCard() {
+export default function HotelCard({ hotel }) {
   const slug = "the-paradise-inn";
 
   return (
     <div className="flex flex-col rounded-lg shadow-2xl bg-red-100 ">
       <Image
         className="rounded-img"
-        src="/images/hotel1.jpeg"
+        src={hotel.images[0]}
         alt="hotel_img"
         width={1500}
         height={1000}
       />
       <div className="p-5">
-        <p className="text-xl font-font-semibold">The Paradise Inn</p>
+        <p className="text-xl font-font-semibold">{hotel.name}</p>
         <p className="my-1 text-gray-500">San Marcos</p>
         <p className="my-1 text-sm">
           Mezmerizing environment with a plenty of things for you to enjoy

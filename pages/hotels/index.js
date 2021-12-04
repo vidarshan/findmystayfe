@@ -1,3 +1,4 @@
+import { API_URL } from "@/config/index";
 import HotelCard from "../../components/HotelCard";
 import Layout from "../../components/Layout";
 
@@ -8,19 +9,20 @@ export default function HotelsPage({ hotels }) {
       description="Best rated hotels in California"
     >
       <div className="grid gap-8 grid-cols-4 m-10 sm:grid-cols-2 xs:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-        <HotelCard />
-        <HotelCard />
-        <HotelCard /> <HotelCard /> <HotelCard />
+        {hotels.map((hotel, key) => {
+          return <HotelCard hotel={hotel} key={key} />;
+        })}
       </div>
     </Layout>
   );
 }
 
-export async function getServerSideProps() {
-  const data = await fetch(`https://localhost:3000/api/hotels`);
-  console.log(data);
+export async function getStaticProps() {
+  const res = await fetch(`${API_URL}/api/hotels`);
+  const hotels = await res.json();
 
-  // return {
-  //   props: { events, page: +page, total },
-  // };
+  return {
+    props: { hotels },
+    revalidate: 1,
+  };
 }

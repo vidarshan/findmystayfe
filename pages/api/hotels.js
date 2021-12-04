@@ -1,9 +1,11 @@
+const { hotels } = require("../api/data.json");
+
 export default function handler(req, res) {
-  try {
-    const hotels = require("../api/data.json");
+  if (req.method === "GET") {
     res.status(200).json(hotels);
-  } catch (err) {
-    res.status(400).json({ message: "An error occurred" });
+  } else {
+    res.setHeader("Allow", ["GET"]);
+    res.status(405).json({ message: `Method ${req.method} not allowed.` });
   }
 }
 
