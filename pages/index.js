@@ -5,7 +5,7 @@ import Featured from "../components/Featured";
 import Experiences from "../components/Experiences";
 import Layout from "../components/Layout";
 
-export default function Home() {
+export default function Home({ hotels }) {
   return (
     <div>
       <Head>
@@ -16,10 +16,20 @@ export default function Home() {
 
       <Layout>
         <Banner />
-        <Featured />
+        <Featured hotels={hotels} />
         <Features />
         <Experiences />
       </Layout>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`${API_URL}/api/hotels`);
+  const hotels = await res.json();
+  console.log(res);
+  return {
+    props: { hotels: hotels.slice(0, 3) },
+    revalidate: 1,
+  };
 }

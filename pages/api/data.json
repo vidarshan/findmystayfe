@@ -6,6 +6,7 @@
       "name": "Hilton Garden Inn",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "260-C North El Camino Real, Encinitas",
+      "price": 100.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -55,6 +56,7 @@
       "name": "Ace Hotel",
       "description": "Perfect hotel with beautiful. Modern, and crisp environment. Great for food and drinks too.",
       "location": "591 Grand Avenue, San Marcos",
+      "price": 110.0,
       "phone": "+1 555 788 3513",
       "email": "acehotel@hotmail.com",
       "features": [
@@ -104,6 +106,7 @@
       "name": "Hotel Monaco",
       "description": "Hitel Monaco offers ultimate comfort and luxury. This 4-storied hotel is a beautiful combination of traditional grandeur and modern facilities.",
       "location": "3650 Rosecrans Street, Sports Arena",
+      "price": 90.0,
       "phone": "+1 348 677 2321",
       "email": "monacohotel@gmail.com",
       "features": [
@@ -153,6 +156,7 @@
       "name": "MarQueen Hotel",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "3650 Rosecrans Street",
+      "price": 130.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -202,6 +206,7 @@
       "name": "Mayflower Park",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "4545 LaJolla Village Dr",
+      "price": 140.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -251,6 +256,7 @@
       "name": "Moore Hotel",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "2435 Fair Oaks Blvd",
+      "price": 120.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -300,6 +306,7 @@
       "name": "Miauw Suites",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "3141 Crow Canyon Place",
+      "price": 120.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -349,6 +356,7 @@
       "name": "Executive Hotel Pacific",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "20735 Stevens Creek Blvd",
+      "price": 110.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -398,6 +406,7 @@
       "name": "Radisson Hotel",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "1640 E. Monte Vista Ave",
+      "price": 140.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -447,6 +456,7 @@
       "name": "Renaissance Hotel",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "2521 Palomar Airport Rd",
+      "price": 120.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -496,6 +506,7 @@
       "name": "Quality Inn & Suites",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "3984 Douglas Blvd",
+      "price": 130.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -545,6 +556,7 @@
       "name": "Sheraton Hotel",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "5198 Commons Drive",
+      "price": 120.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -594,6 +606,7 @@
       "name": "Sixth Avenue Inn",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "3410 Via Mercato",
+      "price": 100.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -643,6 +656,7 @@
       "name": "Prime Hotel Principe",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "2267 S. El Camino Real",
+      "price": 100.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -692,6 +706,7 @@
       "name": "The Edgewater Hotel",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "2214 North Tustin",
+      "price": 90.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -741,6 +756,7 @@
       "name": "Domus Ester",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "1910 East 20th Street",
+      "price": 80.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -790,6 +806,7 @@
       "name": "Hotel Benito",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "2855 Stevens Creek BLVD",
+      "price": 80.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
@@ -839,6 +856,7 @@
       "name": "Outrigger Maui Eldorado",
       "description": "Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
       "location": "3151 Zinfandel Drive",
+      "price": 100.0,
       "phone": "+1 238 544 3323",
       "email": "hiltongarden@gmail.com",
       "features": [
