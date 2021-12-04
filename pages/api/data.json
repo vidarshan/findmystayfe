@@ -1,0 +1,781 @@
+{
+    "hotels":[
+        {
+        "slug":"hilton-garden-inn",
+        "name":"Hilton Garden Inn",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"260-C North El Camino Real, Encinitas",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },
+    {
+        "slug":"ace-hotel",
+        "name":"Ace Hotel",
+        "description":"Perfect hotel with beautiful. Modern, and crisp environment. Great for food and drinks too.",
+        "location":"591 Grand Avenue, San Marcos",
+        "phone":"+1 555 788 3513",
+        "email":"acehotel@hotmail.com",
+        "features":[
+            "5 Swimming Pools",
+            "Easy check-in",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "24/7 room service",
+            "Discounts for couples"
+        ],
+        "images":[
+            "/images/hotel2-1.jpeg",
+            "/images/hotel2-2.jpeg",
+            "/images/hotel2-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"Lacey Luis",
+            "rating":3,
+            "review": "Drove down to Seattle from Vancouver for my wife's birthday and she's been dying to stay at an Ace Hotel. We weren't disappointed! It's just like others have described it...a hostel for Adults. People were walking around in pyjamas at night/early morning and it just had a very cozy cool vibe. It's not your typical hotel so if you aren't flexible and open to new things you'll have a bad experience. Don't go! The continental breakfast was simple but fun. Fresh waffles, good Stumptown coffee, and clean. We were upgraded to room with its own washroom at no extra charge because I mentioned it was my wife's birthday. They also included a nice birthday greeting in our room. To everyone at Ace: keep on doing what you're doing! To those who are intrigued: give it a whirl!"
+        }, {
+            "name":"Lucy Reid",
+            "rating":4,
+            "review": "Excellent things can grow from excellent ideas. Though it doesn't always succeed or grow on a smooth path, it is awesome to watch a concept transform and breed new iterations of the original. That's how I would frame the Ace Hotel phenomena that's swept from west to east. I'm very familiar with the New York offspring of this Seattle original. Very cool, celeb chef in their restaurant, lounge for a lobby and some serious partners names partnered up: Stumptown Coffee in the front, Opening Ceremony in the back and more I'm sure to come. All that swagger grew out of an original hotel in Seattle. One which still offers excellent pricing for both European-style rooms (ahem, bathroom outside of the room) and Deluxe suites ($199 and worth every penny). The staff is friendly and accommodating; though please remember that the front door locks at midnight so grab that key before hitting the town! The modern design and simple but ultra cool decor feels opulent in comparison to your run of the mill big box hotels. WiFi is free to use and besides your room, you can choose to work in the front shared area with the terrarium or event downstairs in the dining area. Oh yea, in addition to WiFi and super sweet rooms, they offer a continental breakfast that includes a waffle maker and Stumptown Coffee. And a copy of the New York Times. Location-wise, it's just outside of the touristy area so Pike Place Market is only a 15 minute stroll away and the streets are very walkable. In my opinion, there's no better place to stay in Seattle for that price! Don't mess with an original."
+        }, {
+            "name":"J. Rolland",
+            "rating":4,
+            "review": "Loved this place. We were able to check in early, got a corner room. Clean, nicely decorated. Staff was helpful. Great location for the price. I would definitely stay here again."
+        }, {
+            "name":"Ian Reynold",
+            "rating":4,
+            "review": "This is the PERFECT hotel: sweet quiet clean and charming, uber-hip but gentle and just down-to-the-bone nice (and located close to everything). I can't recall the last time I was this happy in a hotel. My room was really inexpensive because the bathrooms were down the hall, but the bathrooms were hospital clean and bright and large and the soaps and shampoos were really nice--and the little sink in my room (European style) was all I needed. I liked being there so much! Great desk staff, excellent spa downstairs, nice breakfast...I'll never stay anywhere else in Seattle: Ace is the place!"
+        }, {
+            "name":"Paul Rivera",
+            "rating":5,
+            "review": "Wow. Friendliest staff I've ever encountered. Treated my fiancÃ© and I like we were old friends, recommended excellent bars and restaurants, always helpful if we needed directions. I read the shared bathroom thing and was very nervous but the rates were so good I booked anyway. There were at least ten bathrooms and I literally never saw less than four available. This area is walking distance from anywhere you'd want to be. As for the rooms, just look at their site, very trendy and cozy. Highly recommend renting a bike and riding along the coast. Breakfast in the morning was such a nice touch. Yummy waffles and they always had soy milk available for the health conscious! Cyclops, the restaurant downstairs is absolutely delicious you must try anything on their menu but if you like burgers, get one! They've changed my opinion on what a burger should taste like."
+        }
+    ]
+
+    },{
+        "slug":"hotel-monaco",
+        "name":"Hotel Monaco",
+        "description":"Hitel Monaco offers ultimate comfort and luxury. This 4-storied hotel is a beautiful combination of traditional grandeur and modern facilities.",
+        "location":"3650 Rosecrans Street, Sports Arena",
+        "phone":"+1 348 677 2321",
+        "email":"monacohotel@gmail.com",
+        "features":[
+            "Friendly staff",
+            "Spacious suite",
+            "Comfortable furnishings",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "baseball stadium"
+        ],
+        "images":[
+            "/images/hotel3-1.jpeg",
+            "/images/hotel3-2.jpeg",
+            "/images/hotel3-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"Monique",
+            "rating":4,
+            "review": "My husband and I splurged on a suite for our anniversary. The room was huge and as with all the Hotel Monaco's, the bed was very comfortable with a big comforter and lots of pillows. The bathroom was great with a nice sized shower and a separate jacuzzi tub, all stocked with Aveda products (yeah!). The food at the restaurant downstairs was good being in the middle of downtown Seattle was great. It was a bit of a walk to the baseball stadium and the Space Needle, but most other sites and shopping were within walking distance (take a cab to REI)."
+        }, {
+            "name":"Chris Lynch",
+            "rating":4,
+            "review": "Decor is fabulous and service is great but the rooms are a little small. I had dinner in the hotel restaurant twice and the food was great but a little pricey. Over all a good choice."
+        }, {
+            "name":"Wilson Gaines",
+            "rating":4,
+            "review": "We stayed at this hotel on our honeymoon night. The mediterrainian suites are excellent and the staff is very friendly and hip. All in all I would recommend this downtown hotel to anyone looking for an upbeat and modern hotel to stay at without the business-like aspect of the W hotels."
+        }, {
+            "name":"Travis McB",
+            "rating":3,
+            "review": "I had really high hopes for the Hotel Monaco when we chose it as our base for a girlfriend's shopping trip to Seattle. But after our stay, I would say that given the competition in Seattle, it was just okay. The hotel has a lot of nice features but little things that detract: The bedding is super soft and luxurious with down comforters and pillows. But the mattress is a rock hard standard hotel bed that kept me awake both nights. The furnishings are nice and the colors and patterns fun but the chair had a rip in it and the wall paper was peeling. We stayed in room 815 and there was a noise like a fog horn that vibrated through the walls off and on through our stay. My guess is it's the water pipes but it was really annoying. On waking the first morning we found that we had two packages of decaf instead of regular coffee. It took them 30 minutes to send up coffee and then they showed up with just one package. This is coffee town USA and you get one little package and 3 tiny dried creamers? There was supposed to be coffee service in the lobby but we never saw any. It must be cleared really early. It's gone by 10AM. The wine reception is from 5-6 and boy you better get there on time because if you walk in at 5:50 like we did you get a look from the manager like you are trying to scope a 2nd glass. That and the food was a plate of goldfish crackers. Classy. Friday night the restaurant and bar were closed by 4pm for a private party. That was where we planned to eat since we'd heard so much about the fun bar. It was another bummer to add to the rest. All over the hotel are posters that say things like the hotel is all about you and your comfort etc. But we felt neither catered to or comfortable. No one on staff ever asked us how we were doing or even said hello. We'll be looking elsewhere for our next visit."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "Wow -- from the moment you enter the spacious suite and find yourself smiling at the bright colorful draperies and linens, comfortable furnishings and wonderful touches with Aveda products, mint chocolates and leopard print robes -- to the peace and quiet the room and its placement afford -- you know that you have chosen well. What a great place to spend with your honey. What a great, central location to shopping, theater, restaurants and the stadiums. I would do it again in a heartbeat!"
+        }
+    ]
+
+    },{
+        "slug":"marqueen-hotel",
+        "name":"MarQueen Hotel",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"3650 Rosecrans Street",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"mayflower-park",
+        "name":"Mayflower Park",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"4545 LaJolla Village Dr",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"moore-hotel",
+        "name":"Moore Hotel",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"2435 Fair Oaks Blvd",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"miauw-suites",
+        "name":"Miauw Suites",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"3141 Crow Canyon Place",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"executive-hotel-pacific",
+        "name":"Executive Hotel Pacific",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"20735 Stevens Creek Blvd",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"radisson-hotel",
+        "name":"Radisson Hotel",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"1640 E. Monte Vista Ave",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"renaissance-hotel",
+        "name":"Renaissance Hotel",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"2521 Palomar Airport Rd",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"quality-inn-&-suites",
+        "name":"Quality Inn & Suites",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"3984 Douglas Blvd",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"sheraton-seattle-hotel",
+        "name":"Sheraton Hotel",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"5198 Commons Drive",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"sixth-avenue-inn",
+        "name":"Sixth Avenue Inn",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"3410 Via Mercato",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"prime-hotel-principe",
+        "name":"Prime Hotel Principe",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"2267 S. El Camino Real",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"the-edgewater-hotel",
+        "name":"The Edgewater Hotel",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"2214 North Tustin",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"domus-ester",
+        "name":"Domus Ester",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"1910 East 20th Street",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"hotel-benito",
+        "name":"Hotel Benito",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"2855 Stevens Creek BLVD",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    },{
+        "slug":"outrigger-maui-eldorado",
+        "name":"Outrigger Maui Eldorado",
+        "description":"Perfect hotel with a delightful front end staff. Beautiful furniture, soaring cielings, and glass everywhere.",
+        "location":"3151 Zinfandel Drive",
+        "phone":"+1 238 544 3323",
+        "email":"hiltongarden@gmail.com",
+        "features":[
+            "2 Swimming Pools",
+            "Spacious Rooms",
+            "Discounts for families",
+            "35% off for more than 3 nights",
+            "Free drinks at the bar",
+            "24/7 room service"
+        ],
+        "images":[
+            "/images/hotel1-1.jpeg",
+            "/images/hotel1-2.jpeg",
+            "/images/hotel1-3.jpeg"
+        ],
+        "reviews":[{
+            "name":"John Smith",
+            "rating":4,
+            "review": "Usually stay near the airport, but this trip we had business on the north side of Balto. The traffic is too crazy staying elsewhere. This hotel was perfect, the hot breakfast wonderful - recommend getting the breakfast package if there are 2 of you in the room. Only hotel in the area with a restaurant and bar. This area does not have a whole lot of good restaurants (compared to staying near Columbia or Pikesville or off 83). It is next to White Marsh Mall which is a huge complex of shopping including an Ikea. The beds were fabulous - you can adjust your side for firmness."
+        }, {
+            "name":"Kevin Lynch",
+            "rating":5,
+            "review": "I just stayed here last weekend and have already planned to stay here again the night before New Years. There is a very warm atmosphere about this inn and I personally think its more like a hotel than an inn. They actually have room service from 5-10 which are the same hours as their restaurant. This is something I couldn't find elsewhere in the area. If anyone reading this knows better...please feel free to educate me :o) Outside of room service hours there is a pantry with both wine and beer available too. I took advantage of this given I was in the area visiting my girl friend. The chef..I think Patty is her name is really nice, very entertaining and very obviously a hit with the locals. Both mornings I had breakfast..more non residents came in for breakfast than residents and the breakfast was delicious. Eggs/pancakes etc made to order and plenty of selection. The beds are one touch beds which allow adjustment for firmness..I slept like a log..no need for more to be said. The stay comes with complimentary access to Bally Fitness/La Fitness (large well equipped gym) within a 2 minute walk from the hotel. This hotel will be my hotel of choice for stays in Baltimore for the foreseeable future."
+        }, {
+            "name":"Wes Gaines",
+            "rating":5,
+            "review": "Chef Cindy was the best I have ever met. She really makes you feel at home. She is meticulous when preparing the food. She gets your order as exact as possible. She is very friendly, courteous, humorous, etc. My wife and I loved her. The staff was very nice and helpful. Our room was very clean. The manager, Jim Miller, came out to see how we were doing. I told him and Cindy that I did not know the great treatment/service they provided still existed."
+        }, {
+            "name":"Mary Grant",
+            "rating":5,
+            "review": "The staff went way out of their way for us; over the top. Couldn't do enough for us. The bedding was wonderful. It was clean. Housekeepers were great. While there for a business meeting, there was a death in the immediate family."
+        }, {
+            "name":"Sarah Perry",
+            "rating":5,
+            "review": "We are from the UK and have stayed in several American chains but hadn't tried this one until now. We stayed 3 nights and will be adding it to our list. The room was excellent and although there was no free breakfast, it was only $10 which by UK standards is cheap and included cooked to order breakfast, fruit, juice, toast, pastries etc. Location is good, there is also a great shopping mall right nearby. We thought from previous postings we would be able to get a train fairly near but the reception staff thought not so we drove into Baltimore which was convenient but quite expensive to park. Would definitely try this chain again."
+        }
+    ]
+
+    }
+
+]
+}
