@@ -1,8 +1,7 @@
-import Header from "../../components/Header";
 import HotelCard from "../../components/HotelCard";
 import Layout from "../../components/Layout";
 
-export default function HotelsPage() {
+export default function HotelsPage({ hotels }) {
   return (
     <Layout
       title="Hotels | Findmystay"
@@ -15,4 +14,13 @@ export default function HotelsPage() {
       </div>
     </Layout>
   );
+}
+
+export async function getServerSideProps() {
+  const data = await fetch(`https://localhost:3000/api/hotels`);
+  console.log(data);
+
+  // return {
+  //   props: { events, page: +page, total },
+  // };
 }

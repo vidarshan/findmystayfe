@@ -15,7 +15,7 @@ import ReviewCard from "../../components/ReviewCard";
 
 export default function HotelPage() {
   const [image, setImage] = useState("/images/hotel1.jpeg");
-
+  //inverted buttons to be added
   return (
     <Layout>
       <div className="m-10">
