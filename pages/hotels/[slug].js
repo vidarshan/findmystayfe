@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import { BiSwim } from "react-icons/bi";
 import {
@@ -28,7 +28,23 @@ export default function HotelPage({
   },
 }) {
   const [image, setImage] = useState(images[0]);
+  const [totalRating, setTotalRating] = useState(0);
   //inverted buttons to be added
+
+  const calculateTotalRating = (ratings) => {
+    if (ratings.length) {
+      ratings.map((rating) => {
+        totalRating = totalRating + rating.rating;
+      });
+    }
+
+    setTotalRating(totalRating / ratings.length);
+  };
+
+  useEffect(() => {
+    calculateTotalRating(reviews);
+  }, [reviews]);
+
   return (
     <Layout title={`${name} | Findmystay`}>
       <div className="m-10">
@@ -109,7 +125,7 @@ export default function HotelPage({
           <div className="grid">
             <div className="flex flex-row items-center justify-center text-xl font-bold mb-5">
               <BsStarFill className="text-yellow-400 mr-1" />
-              <p className="text-gray-600">4.7 [5 Reviews]</p>
+              <p className="text-gray-600">{totalRating} [5 Reviews]</p>
             </div>
             <div>
               {reviews.map((review, key) => {
