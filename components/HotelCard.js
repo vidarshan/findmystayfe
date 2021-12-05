@@ -3,8 +3,6 @@ import Link from "next/link";
 import { BsStarFill } from "react-icons/bs";
 
 export default function HotelCard({ hotel }) {
-  const slug = "the-paradise-inn";
-
   return (
     <div className="flex flex-col rounded-lg shadow-2xl">
       <Image
@@ -27,7 +25,7 @@ export default function HotelCard({ hotel }) {
         </div>
         <p className="mb-4">${hotel.price} / per night</p>
 
-        <Link href={`/hotels/${slug}`}>
+        <Link href={`/hotels/${hotel.slug}`}>
           <a className="my-10 px-6 py-3 rounded-lg bg-yellow-400">View Hotel</a>
         </Link>
       </div>
