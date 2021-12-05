@@ -55,10 +55,6 @@ export default function ReviewCard({ review: { name, review, rating } }) {
         </div>
       );
     }
-    // for (let i = 1; i <= rating; i++) {
-    //   console
-    //   return <BsStarFill className="text-yellow-400 mr-1" />;
-    // }
   };
 
   return (

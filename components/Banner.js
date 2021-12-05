@@ -11,7 +11,7 @@ export default function Banner() {
         </p>
 
         <p className="text-md my-2">
-          Planning to spend your vacation in California? Find your hotels
+          Planning to spend your vacation in California? Find your hotel
           conviniently.
         </p>
 

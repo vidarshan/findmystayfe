@@ -47,7 +47,7 @@ export default function HotelPage({
 
   return (
     <Layout title={`${name} | Findmystay`}>
-      <div className="m-10">
+      <div className="m-10 xs:m-3 sm:m-5 lg:m-10 xl:m-10">
         <p className="text-4xl">{name}</p>
         <div className="grid grid-cols-2 p-5 my-5 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
           <div className="flex flex-col content-center items-center bg-gray-100 rounded-xl">
@@ -95,7 +95,7 @@ export default function HotelPage({
               </div>
             </div>
           </div>
-          <div className="text-xl p-6 ">
+          <div className="text-xl xs:p-3 sm:p-4 lg:p-6">
             <div className="flex flex-row justify-center items-center my-3 text-lg text-gray-600 ">
               <MdShareLocation className="mr-1 text-red-700" />{" "}
               <p>{location}</p>
@@ -110,8 +110,11 @@ export default function HotelPage({
                 );
               })}
             </div>
-            <div className="grid grid-cols-2 gap-5 my-8 xs:grid-cols-1">
-              <button className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-green-500 text-white">
+            <div className="mt-5 bg-blue-300 border-2 py-2 rounded-lg border-blue-400 text-center mt-3 text-base font-font-semibold">
+              ${price} / Per night
+            </div>
+            <div className="grid grid-cols-2 gap-5 my-5 xs:grid-cols-1">
+              <button className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-green-400 text-white">
                 <GiRotaryPhone className="mr-2" />
                 Get Phone Number
               </button>
