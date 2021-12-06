@@ -176,24 +176,24 @@ export default function HotelPage({
   );
 }
 
-export async function getStaticPaths() {
-  const res = await fetch(`${API_URL}/api/hotels`);
+// export async function getStaticPaths() {
+//   const res = await fetch(`${API_URL}/api/hotels`);
 
-  const hotels = await res.json();
+//   const hotels = await res.json();
 
-  const paths =
-    hotels.length &&
-    hotels.map((hotel) => ({
-      params: { slug: hotel.slug },
-    }));
+//   const paths =
+//     hotels.length &&
+//     hotels.map((hotel) => ({
+//       params: { slug: hotel.slug },
+//     }));
 
-  return {
-    paths,
-    fallback: true,
-  };
-}
+//   return {
+//     paths,
+//     fallback: true,
+//   };
+// }
 
-export async function getStaticProps({ params: { slug } }) {
+export async function getServerSideProps({ params: { slug } }) {
   const res = await fetch(`${API_URL}/api/hotels/${slug}`);
 
   const hotels = await res.json();
