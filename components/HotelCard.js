@@ -76,15 +76,17 @@ export default function HotelCard({
         width={1500}
         height={1000}
       />
-      <div className="p-5">
-        <p className="text-xl font-font-semibold">{name}</p>
+      <div className="card-body p-5">
+        <p className="text-xl font-bold">{name}</p>
         <p className="my-1 text-gray-500">{location}</p>
         <p className="my-1 text-sm">{description}</p>
         {mapRatingToStars(reviews)}
         <p className="mb-4 font-bold text-gray-500">${price} / Per Night</p>
 
         <Link href={`/hotels/${slug}`}>
-          <a className="my-10 px-6 py-3 rounded-lg bg-yellow-400">View Hotel</a>
+          <a className="mt-10 px-6 py-3 rounded-lg bg-yellow-400 hover:bg-yellow-300">
+            View Hotel
+          </a>
         </Link>
       </div>
     </div>

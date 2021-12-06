@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
+import Preview from "./Preview";
 
 export default function Layout({ title, description, keywords, children }) {
   return (
@@ -10,6 +11,7 @@ export default function Layout({ title, description, keywords, children }) {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
+      <Preview />
       <Header />
       <div>{children}</div>
       <Footer />

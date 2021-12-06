@@ -6,7 +6,7 @@ export default function Header() {
     <nav className="bg-white shadow-lg">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
-          <div className="flex space-x-7">
+          <div className="flex">
             <Link href="/">
               <a className="flex items-center py-6 ">
                 <FcHome className="mr-2" />

@@ -3,15 +3,17 @@ import { FcFlashOn } from "react-icons/fc";
 export default function Features() {
   return (
     <div className="flex flex-col m-10">
-      <span className="text-center text-4xl font-semibold">Why us?</span>
-      <span className="text-center text-2xl my-4">Our amazing services</span>
-      <div className="grid gap-8 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xs:grid-cols-1">
-        <div className="flex flex-1 items-center flex-col w-full p-10 text-center rounded-lg shadow-2xl ">
-          <span className="text-3xl text-red-700 font-medium">Quick</span>
-          <div className="py-5 flex items-center text-red-700 justify-center">
+      <span className="text-center text-4xl font-bold">Why us?</span>
+      <span className="text-center text-2xl my-4 text-gray-400">
+        Our amazing services
+      </span>
+      <div className="grid mt-5 gap-8 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xs:grid-cols-1">
+        <div className="flex flex-1 items-center flex-col w-full p-10 text-center rounded-lg shadow-2xl bg-yellow-400">
+          <span className="text-3xl font-semibold">Quick</span>
+          <div className="py-5 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className=" h-20 w-30 text-red-700"
+              className=" h-20 w-30"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -25,18 +27,18 @@ export default function Features() {
             </svg>
           </div>
 
-          <div className="py-18 text-red-700 font-medium">
+          <div className="py-18 font-base">
             We provide the information you need with great clarity, which will
             help you to reserve and check-in to your hotel without any waiting
             in the line.
           </div>
         </div>
-        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">
-          <span className="text-3xl text-green-700">Easy</span>
-          <div className="py-5 flex items-center justify-center text-green-700">
+        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl bg-black">
+          <span className="text-3xl text-yellow-400 font-semibold">Easy</span>
+          <div className="py-5 flex items-center justify-center text-yellow-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className=" h-20 w-30 text-green-700"
+              className=" h-20 w-30"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -49,13 +51,13 @@ export default function Features() {
               />
             </svg>
           </div>
-          <span className="text-green-700 font-medium">
+          <span className="text-yellow-400 text-justify font-base">
             Find, contact, reserve and check-in. No other actions required from
             your end. Just check-in, enjoy and check-out.
           </span>
         </div>{" "}
-        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">
-          <span className="text-3xl text-blue-700">Reviewed</span>
+        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl bg-yellow-400">
+          <span className="text-3xl font-semibold">Reviewed</span>
           <div className="py-5 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -78,12 +80,12 @@ export default function Features() {
             reviewers.
           </span>
         </div>{" "}
-        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">
-          <span className="text-3xl text-yellow-700">Free</span>
-          <div className="py-5 flex items-center justify-center">
+        <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl bg-black">
+          <span className="text-3xl text-yellow-400 font-semibold">Free</span>
+          <div className="py-5 flex items-center justify-center text-yellow-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className=" h-20 w-30 text-yellow-700"
+              className=" h-20 w-30 text-yellow-400"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -96,7 +98,7 @@ export default function Features() {
               />
             </svg>
           </div>
-          <span className="text-yellow-700 font-medium">
+          <span className="text-yellow-400 font-medium">
             Contact your desired hotel without any getting any other party
             involved, which will make you pay no commissions or any other
             charges.

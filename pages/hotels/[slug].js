@@ -48,12 +48,12 @@ export default function HotelPage({
   return (
     <Layout title={`${name} | Findmystay`}>
       <div className="m-10 xs:m-3 sm:m-5 lg:m-10 xl:m-10">
-        <p className="text-4xl">{name}</p>
+        <p className="text-4xl px-5 font-semibold">{name}</p>
         <div className="grid grid-cols-2 p-5 my-5 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
-          <div className="flex flex-col content-center items-center bg-gray-100 rounded-xl">
+          <div className="flex flex-col content-center items-center rounded-xl">
             <Image
               alt="hotel_main"
-              className="rounded object-contain"
+              className="rounded-lg rounded-img object-contain"
               src={image}
               width={400}
               height={300}
@@ -63,7 +63,7 @@ export default function HotelPage({
               <div className="mx-1">
                 <Image
                   alt="hotel_main"
-                  className="rounded object-fill cursor-pointer"
+                  className="rounded-lg object-fill cursor-pointer"
                   src={images[0]}
                   width={150}
                   height={100}
@@ -74,7 +74,7 @@ export default function HotelPage({
               <div className="mx-1">
                 <Image
                   alt="hotel_main"
-                  className="rounded object-contain cursor-pointer"
+                  className="rounded-lg object-contain cursor-pointer"
                   src={images[1]}
                   width={150}
                   height={100}
@@ -85,7 +85,7 @@ export default function HotelPage({
               <div className="mx-1">
                 <Image
                   alt="hotel_main"
-                  className="rounded object-contain cursor-pointer"
+                  className="rounded-lg rounded-img object-contain cursor-pointer"
                   src={images[2]}
                   width={150}
                   height={100}
@@ -95,22 +95,22 @@ export default function HotelPage({
               </div>
             </div>
           </div>
-          <div className="text-xl xs:p-3 sm:p-4 lg:p-6">
+          <div className="text-xl xs:p-3 sm:p-4 lg:p-6 bg-gray-100 rounded-lg">
             <div className="flex flex-row justify-center items-center my-3 text-lg text-gray-600 ">
               <MdShareLocation className="mr-1 text-red-700" />{" "}
-              <p>{location}</p>
+              <p className="font-semibold">{location}</p>
             </div>
             <p className="mb-6 text-lg">{description}</p>
             <div className="grid grid-cols-2 gap-5 xs:grid-cols-1">
               {features.map((feature) => {
                 return (
-                  <div className="flex flex-row text-base items-center justify-center text-center p-2 border-2 rounded-lg border-2 border-yellow-300 bg-yellow-200">
+                  <div className="flex flex-row text-base items-center p-2 rounded-lg bg-yellow-400">
                     {feature}
                   </div>
                 );
               })}
             </div>
-            <div className="mt-5 bg-blue-300 border-2 py-2 rounded-lg border-blue-400 text-center mt-3 text-base font-font-semibold">
+            <div className="mt-5 text-xl bg-blue-300 py-2 rounded-lg text-center mt-3 text-base font-semibold">
               ${price} / Per night
             </div>
             <div className="grid grid-cols-2 gap-5 my-5 xs:grid-cols-1">
@@ -122,7 +122,7 @@ export default function HotelPage({
                 Call Reception
               </a>
               <a
-                className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-red-500 text-white"
+                className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-red-400 text-white"
                 href={`mailto:${email}`}
               >
                 <IoIosMail className="mr-2" /> Email reception
@@ -132,9 +132,11 @@ export default function HotelPage({
         </div>
         <div className="p-1">
           <div className="grid">
-            <div className="flex flex-row items-center justify-center text-xl font-bold mb-5">
-              <BsStarFill className="text-yellow-400 mr-1" />
-              <p className="text-gray-600">{totalRating} [5 Reviews]</p>
+            <div className="flex flex-row items-center justify-center text-2xl font-bold mb-5">
+              <BsStarFill className="text-yellow-400 mr-1 " />
+              <p className="text-gray-600">
+                {totalRating.toFixed(1)} - 5 Reviews
+              </p>
             </div>
             <div>
               {reviews.map((review, key) => {
