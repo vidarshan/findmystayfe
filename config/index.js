@@ -1,1 +1,4 @@
-export const API_URL = "http://localhost:3000";
+export const API_URL =
+  process.env.NODE_ENV === "production"
+    ? "https://find-your-home.vercel.app/api"
+    : "http://localhost:3000";
