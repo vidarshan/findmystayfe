@@ -102,9 +102,12 @@ export default function HotelPage({
             </div>
             <p className="mb-6 text-lg">{description}</p>
             <div className="grid grid-cols-2 gap-5 xs:grid-cols-1">
-              {features.map((feature) => {
+              {features.map((feature, key) => {
                 return (
-                  <div className="flex flex-row text-base items-center p-2 rounded-lg bg-yellow-400">
+                  <div
+                    key={key}
+                    className="flex flex-row text-base items-center p-2 rounded-lg bg-yellow-400"
+                  >
                     {feature}
                   </div>
                 );

@@ -61,7 +61,7 @@ export default function Features() {
           <div className="py-5 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className=" h-20 w-30 text-blue-700"
+              className=" h-20 w-30"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -74,7 +74,7 @@ export default function Features() {
               />
             </svg>
           </div>
-          <span className="text-blue-700 font-medium">
+          <span className="font-medium">
             Featured reviews in our website will help you to find the best hotel
             for you, based on the experiences and ratings of our dedicated
             reviewers.

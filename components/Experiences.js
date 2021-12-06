@@ -25,7 +25,7 @@ export default function Experiences() {
             <div className="mb-1 text-gray-500 font-semibold">Sarah Johns</div>
             <div className="flex flex-row italic">
               {
-                "Find hotels helped me to find my hotel very easily when I last visited California. The reviews on the website helped me to choose the best and the easiest for me."
+                '"Find hotels helped me to find my hotel very easily when I last visited California. The reviews on the website helped me to choose the best and the easiest for me."'
               }
             </div>{" "}
           </div>
@@ -45,7 +45,7 @@ export default function Experiences() {
             <div className="mb-1 text-gray-500 font-semibold">Tim Buttler</div>
             <div className="flex flex-row italic">
               {
-                "My busy schedule always gets in the way when I'm trying to find a hotel when I'm on a business trip. With Find my hotel, I don't need to worry about that no more."
+                '"My busy schedule always gets in the way when I am trying to find a hotel when I am on a business trip. With Find my stay, I do not need to worry about that no more."'
               }
             </div>{" "}
           </div>
@@ -65,7 +65,7 @@ export default function Experiences() {
             <div className="mb-1 text-gray-500 font-semibold">Kane Smith</div>
             <div className="flex flex-row italic">
               {
-                "What makes Find my hotel easy to use is that the information on the hotels are presented in such a rigid way, that is easy to get the information I need within few clicks."
+                '"What makes Find my hotel easy to use is that the information on the hotels are presented in such a rigid way, that is easy to get the information I need within few clicks."'
               }
             </div>{" "}
           </div>
@@ -87,7 +87,7 @@ export default function Experiences() {
             </div>
             <div className="flex flex-row italic">
               {
-                "This is it. And what I needed. A place to find the hotels around California, the best place in America."
+                '"This is it. And what I needed. A place to find the hotels around California, the best place in America."'
               }
             </div>{" "}
           </div>

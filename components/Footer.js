@@ -9,23 +9,33 @@ export default function Footer() {
           <Image alt="logo" src="/images/logo.png" width={40} height={40} />
           <div className=" mx-2 text-lg font-semibold">Find My Stay</div>
         </div>
-        <div className="py-2 text-xs font-semibold">2022 @ findmystay.com</div>
-        <div className="py-2 text-xs font-semibold">Phone and Email</div>
-        <div className="py-2 text-xs font-semibold">Terms and Conditions</div>
-        <div className="py-2 text-xs font-semibold">About</div>
+        <div className="py-2 font-semibold">2022 @ findmystay.com</div>
+
+        <div className="py-2 font-semibold cursor-pointer hover:text-gray-400">
+          Terms and Conditions
+        </div>
+        <div className="py-2 font-semibold cursor-pointer hover:text-gray-400">
+          About
+        </div>
       </div>
       <div className="flex py-5 flex-col xs:py-0">
         <div className="p-2 font-semibold xs:px-0">
           Get notified when we do something special!
         </div>
+        <div className="p-2 font-semibold cursor-pointer hover:text-gray-400">
+          +1 134 4554 5455
+        </div>
+        <div className="p-2 font-semibold cursor-pointer hover:text-gray-400">
+          support@findmystay.com
+        </div>
         <div className="flex flex-row">
-          <div className="p-2 xs:px-0">
+          <div className="p-2 xs:px-0 cursor-pointer hover:text-gray-400">
             <BsInstagram />
           </div>
-          <div className="p-2 xs:pr-0">
+          <div className="p-2 xs:pr-0 cursor-pointer hover:text-gray-400">
             <BsTwitter />
           </div>
-          <div className="p-2 xs:pr-0">
+          <div className="p-2 xs:pr-0 cursor-pointer hover:text-gray-400">
             <BsFacebook />
           </div>
         </div>

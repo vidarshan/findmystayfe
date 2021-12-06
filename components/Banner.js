@@ -17,7 +17,9 @@ export default function Banner() {
 
         <div className="my-7">
           <Link href="/hotels">
-            <a className="bg-yellow-400 p-5 rounded-lg">Explore hotels</a>
+            <a className="bg-yellow-400 px-5 py-3 rounded-lg hover:bg-yellow-200">
+              Explore all hotels
+            </a>
           </Link>
         </div>
       </div>
