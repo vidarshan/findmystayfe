@@ -74,7 +74,8 @@ export default function Features() {
           </div>
           <span className="text-blue-700 font-medium">
             Featured reviews in our website will help you to find the best hotel
-            for you, based on the experiences and ratings of our past customers.
+            for you, based on the experiences and ratings of our dedicated
+            reviewers.
           </span>
         </div>{" "}
         <div className="flex-1 flex-col w-full p-10 text-center rounded-lg shadow-2xl">

@@ -114,13 +114,19 @@ export default function HotelPage({
               ${price} / Per night
             </div>
             <div className="grid grid-cols-2 gap-5 my-5 xs:grid-cols-1">
-              <button className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-green-400 text-white">
+              <a
+                href={`tel:${phone}`}
+                className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-green-400 text-white"
+              >
                 <GiRotaryPhone className="mr-2" />
-                Get Phone Number
-              </button>
-              <button className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-red-500 text-white">
+                Call Reception
+              </a>
+              <a
+                className="flex flex-row justify-center items-center text-base py-2 rounded-lg bg-red-500 text-white"
+                href={`mailto:${email}`}
+              >
                 <IoIosMail className="mr-2" /> Email reception
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -135,7 +141,7 @@ export default function HotelPage({
                 return <ReviewCard key={key} review={review} />;
               })}
             </div>
-            <div className="flex flex-col shadow-xl bg-gray-100 mt-3 p-4">
+            {/* <div className="flex flex-col shadow-xl bg-gray-100 mt-3 p-4">
               <p className="text-center">Add your review</p>
               <input
                 className="my-3 border-2 rounded-lg p-2"
@@ -157,7 +163,7 @@ export default function HotelPage({
               <button className="p-2 rounded-lg bg-yellow-400">
                 Add Review
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

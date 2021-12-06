@@ -81,7 +81,7 @@ export default function HotelCard({
         <p className="my-1 text-gray-500">{location}</p>
         <p className="my-1 text-sm">{description}</p>
         {mapRatingToStars(reviews)}
-        <p className="mb-4">${price} / per night</p>
+        <p className="mb-4 font-bold text-gray-500">${price} / Per Night</p>
 
         <Link href={`/hotels/${slug}`}>
           <a className="my-10 px-6 py-3 rounded-lg bg-yellow-400">View Hotel</a>
