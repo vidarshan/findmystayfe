@@ -181,9 +181,11 @@ export async function getStaticPaths() {
 
   const hotels = await res.json();
 
-  const paths = hotels.map((hotel) => ({
-    params: { slug: hotel.slug },
-  }));
+  const paths =
+    hotels &&
+    hotels.map((hotel) => ({
+      params: { slug: hotel.slug },
+    }));
 
   return {
     paths,
