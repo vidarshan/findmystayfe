@@ -7,7 +7,9 @@ export default function Footer() {
       <div className="flex flex-col">
         <div className="flex flex-row items-center py-5">
           <Image alt="logo" src="/images/logo.png" width={40} height={40} />
-          <div className=" mx-2 text-lg font-semibold">Find My Stay</div>
+          <div className=" mx-2 text-lg font-semibold">
+            Find My Stay | version 1
+          </div>
         </div>
         <div className="py-2 font-semibold">2022 @ findmystay.com</div>
 

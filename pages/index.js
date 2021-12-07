@@ -27,7 +27,7 @@ export default function Home({ hotels }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/api/hotels`);
+  const res = await fetch(`${API_URL}/hotels?_limit=3`);
   const hotels = await res.json();
   return {
     props: { hotels: hotels.slice(0, 4) },
