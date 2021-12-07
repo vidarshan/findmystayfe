@@ -80,7 +80,11 @@ export default function HotelCard({
       <div className="card-body p-5">
         <p className="text-xl font-bold">{name}</p>
         <p className="my-1 text-gray-500 truncate">{location}</p>
-        <p className="my-1 text-sm overflow-ellipsis">{description}</p>
+        <p className="my-1 text-sm overflow-ellipsis">
+          {description.length > 80
+            ? description.substring(0, 80) + "..."
+            : description}
+        </p>
         {mapRatingToStars(reviews)}
         <p className="mb-4 font-bold text-gray-500">${price} / Per Night</p>
 
