@@ -18,7 +18,9 @@ export default function HotelPage({
   htl: {
     name,
     description,
-    images,
+    image1,
+    image2,
+    image3,
     features,
     phone,
     email,
@@ -27,7 +29,7 @@ export default function HotelPage({
     location,
   },
 }) {
-  const [image, setImage] = useState(images[0]);
+  const [image, setImage] = useState(image1.formats.large.url);
   const [totalRating, setTotalRating] = useState(0);
   //inverted buttons to be added
 
@@ -60,37 +62,38 @@ export default function HotelPage({
               layout="intrinsic"
             />
             <div className="flex flex-row my-5">
+              {console.log(process.env)}
               <div className="mx-1">
                 <Image
                   alt="hotel_main"
                   className="rounded-lg object-fill cursor-pointer"
-                  src={images[0]}
+                  src={image1.formats.medium.url}
                   width={150}
                   height={100}
                   layout="intrinsic"
-                  onMouseEnter={() => setImage(images[0])}
+                  onMouseEnter={() => setImage(image1.formats.large.url)}
                 />
               </div>
               <div className="mx-1">
                 <Image
                   alt="hotel_main"
                   className="rounded-lg object-contain cursor-pointer"
-                  src={images[1]}
+                  src={image2.formats.medium.url}
                   width={150}
                   height={100}
                   layout="intrinsic"
-                  onMouseEnter={() => setImage(images[1])}
+                  onMouseEnter={() => setImage(image2.formats.large.url)}
                 />
               </div>
               <div className="mx-1">
                 <Image
                   alt="hotel_main"
                   className="rounded-lg rounded-img object-contain cursor-pointer"
-                  src={images[2]}
+                  src={image3.formats.medium.url}
                   width={150}
                   height={100}
                   layout="intrinsic"
-                  onMouseEnter={() => setImage(images[2])}
+                  onMouseEnter={() => setImage(image3.formats.large.url)}
                 />
               </div>
             </div>
@@ -177,7 +180,7 @@ export default function HotelPage({
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(`${API_URL}/api/hotels`);
+  const res = await fetch(`${API_URL}/hotels`);
 
   const hotels = await res.json();
 
@@ -194,8 +197,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const res = await fetch(`${API_URL}/api/hotels/${slug}`);
-
+  const res = await fetch(`${API_URL}/hotels?slug=${slug}`);
   const hotels = await res.json();
 
   return {
