@@ -18,7 +18,7 @@ export default function HotelsPage({ hotels }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/api/hotels`);
+  const res = await fetch(`${API_URL}/hotels`);
   const hotels = await res.json();
 
   return {

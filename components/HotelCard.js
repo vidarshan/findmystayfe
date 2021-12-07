@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BsStarFill } from "react-icons/bs";
 
 export default function HotelCard({
-  hotel: { name, location, description, images, reviews, slug, price },
+  hotel: { name, location, description, image1, reviews, slug, price },
 }) {
   const mapRatingToStars = (rating) => {
     let totalRating = 0;
@@ -71,11 +71,12 @@ export default function HotelCard({
     <div className="flex flex-col rounded-lg shadow-2xl">
       <Image
         className="rounded-img"
-        src={images[0]}
+        src={image1.formats.medium.url}
         alt="hotel_img"
         width={1500}
         height={1000}
       />
+
       <div className="card-body p-5">
         <p className="text-xl font-bold">{name}</p>
         <p className="my-1 text-gray-500 truncate">{location}</p>
