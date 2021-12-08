@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align='center'>🏢 Findmystay</h1>
+<h3 align='center'>Find the best hotels in California.</h3>
+<h5 align='center'>https://find-your-home.vercel.app/</h5>
 
-## Getting Started
+## 🏁 Introduction
 
-First, run the development server:
+This website is about finding hotels in California. This is a mock website and no data in this webiste is actual. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## ⚠️ Important
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a full-stack project. This repository is the frontend for this application which is deployed to Vercel, you can find the backend repository consisting of a Strapi application with this URL 👉🏻 [View Backend Repo](https://github.com/vidarshanadithya/findmystaybe)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 👨‍💻 Technologies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  - Next JS
+  - Tailwind CSS
+  - Vercel
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## ⚙️ Setup
+Make sure that you have the [backend](https://github.com/vidarshanadithya/findmystaybe) setup first.
 
-## Learn More
+- Clone and install packages.
 
-To learn more about Next.js, take a look at the following resources:
+       npm install
+       
+- Get your backend URL, and replace the following line in config/index.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+      export const API_URL = process.env.NEXT_PUBLIC_API_URL || "<your_backend_url>";
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Start the project
 
-## Deploy on Vercel
+       npm run dev
+       
+## 💣 Things to be noted
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- The strapi backend may not contain data, if so remind to add data to the Strapi backend.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Strapi `find` and `findOne` are private by default, edit those in the `roles` section's `Public` role Strapi admin.
+
+## 🌩️ Deployment
+Add the following line to the config/index.js before deploying.
+
+       export const NEXT_URL = process.env.NEXT_PUBLIC_FRONTEND_URL || "<your_hosted_backend_url>";
+       
+   
+   
+
+
+
