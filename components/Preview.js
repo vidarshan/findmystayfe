@@ -1,7 +1,8 @@
+import { BsFillExclamationTriangleFill } from "react-icons/bs";
 export default function Preview() {
   return (
-    <div className="bg-black text-white text-center py-2">
-      This is a preview website.
+    <div className="flex items-center justify-center bg-yellow-200 text-black text-center py-2">
+      <BsFillExclamationTriangleFill /> This is a demo website.
     </div>
   );
 }

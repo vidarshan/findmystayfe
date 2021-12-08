@@ -1,5 +1,5 @@
 {
-  "name": "find-your-home",
+  "name": "findyourstay",
   "private": true,
   "scripts": {
     "dev": "next dev",
