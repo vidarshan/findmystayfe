@@ -1,10 +1,11 @@
-<h1 align='center'🏨 Findmystay</h1>
+<>![logo](https://user-images.githubusercontent.com/48169745/145329269-0fcf1ce2-ca6f-4ff6-8524-da36648af1c2.png)</p>
+<h1 align='center'>🏨 Findmystay</h1>
 <h3 align='center'>Find the best hotels in California.</h3>
 <h5 align='center'>https://find-your-home.vercel.app/</h5>
 
 ## 🏁 Introduction
 
-This website is about finding hotels in California. This is a mock website and no data in this webiste is actual. 
+This website is about finding hotels in California. This is a mock website and no data in this website is actual. 
 
 ## ⚠️ Important
 
@@ -14,7 +15,7 @@ This project is a full-stack project. This repository is the frontend for this a
 
   - Next JS
   - Tailwind CSS
-  - Vercel
+  - Vercel (Deployment)
 
 ## ⚙️ Setup
 Make sure that you have the [backend](https://github.com/vidarshanadithya/findmystaybe) setup first.
@@ -43,6 +44,7 @@ Add the following line to the config/index.js before deploying.
        export const NEXT_URL = process.env.NEXT_PUBLIC_FRONTEND_URL || "<your_hosted_backend_url>";
        
    
+
    
 
 
