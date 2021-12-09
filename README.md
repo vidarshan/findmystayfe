@@ -1,4 +1,4 @@
-<>![logo](https://user-images.githubusercontent.com/48169745/145329269-0fcf1ce2-ca6f-4ff6-8524-da36648af1c2.png)</p>
+<p align="center"><img src='https://user-images.githubusercontent.com/48169745/145329269-0fcf1ce2-ca6f-4ff6-8524-da36648af1c2.png'/></p>
 <h1 align='center'>🏨 Findmystay</h1>
 <h3 align='center'>Find the best hotels in California.</h3>
 <h5 align='center'>https://find-your-home.vercel.app/</h5>
@@ -37,6 +37,7 @@ Make sure that you have the [backend](https://github.com/vidarshanadithya/findmy
 - The strapi backend may not contain data, if so remind to add data to the Strapi backend.
 
 - Strapi `find` and `findOne` are private by default, edit those in the `roles` section's `Public` role Strapi admin.
+
 
 ## 🌩️ Deployment
 Add the following line to the config/index.js before deploying.
