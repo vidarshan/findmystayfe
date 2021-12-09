@@ -1,4 +1,4 @@
-<h1 align='center'>🏢 Findmystay</h1>
+<h1 align='center'🏨 Findmystay</h1>
 <h3 align='center'>Find the best hotels in California.</h3>
 <h5 align='center'>https://find-your-home.vercel.app/</h5>
 
